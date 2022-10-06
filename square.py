@@ -5,6 +5,14 @@ print("hello")
 import turtle
 
 def square(t,x:float,y:float):
+    
+    '''
+    t:your turtle
+    x:start x position
+    y:start y position
+    
+    '''
+    
     t.penup()
     t.goto(x,y)
     t.pendown()
